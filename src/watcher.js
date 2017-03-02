@@ -4,7 +4,7 @@ import _ from 'lodash';
 import path from 'path';
 
 import settings from './settings';
-import formatter from './formatters/simple-detail';
+import formatter from 'eslint-formatter-pretty';
 import Logger from './logger';
 
 const logger = Logger('watcher');
